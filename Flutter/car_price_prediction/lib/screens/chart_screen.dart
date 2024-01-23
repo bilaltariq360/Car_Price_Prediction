@@ -214,7 +214,7 @@ class ChartsClass extends State<Charts> {
   }
 
   Future<void> loadData() async {
-    var uri = 'https://bilaltariq360.github.io/Car_Price_Prediction/';
+    var uri = 'https://bilaltariq360.github/Car_Price_Prediction/';
 
     final res = await http.get(Uri.parse(uri));
     final result = json.decode(res.body) as Map<String, dynamic>;

@@ -19,7 +19,7 @@ What will be the objectives of this work:
 Link of the data:
 https://github.com/sagnikghoshcr7/Car-Price-Prediction/blob/master/data/dataset.csv
 
-Details description of the data:
+## Details description of the data:
 The dataset comprises information about used cars, including the following parameters:
 
 •	S.No: Serial number for identification.
@@ -318,7 +318,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Visual Assessment of Model Predictions:
 •	The visualization offers a clear and intuitive means for users to visually assess the model's predictions in relation to the true values, aiding in the evaluation of the model's effectiveness in predicting car resale prices.
 
-5.  Codes
+# 5.  Codes
 Link of the complete front end (Flutter) and backend (Python) code is:
 https://github.com/Programming-Phantoms/Car_Prediction_System.git
 
@@ -358,7 +358,7 @@ The provided backend Python code is a Flask application that serves as a backend
 
 This Flask app serves as an API, providing various endpoints for accessing predictions, visualizations, and model results related to second-hand car prices.
 
-6. Conclusion
+# 6. Conclusion
 In conclusion, the project successfully addresses the challenge of predicting used car prices through the implementation of a robust linear regression model within a user-friendly Flutter desktop application. By leveraging OLS (Ordinary least Squares) techniques and visual representations such as pie charts, bar charts, histograms, and whisker plot. The model provides accurate and real-time price predictions based on a diverse dataset encompassing critical parameters like brand, location, year of manufacture, kilometers driven, fuel type, transmission, owner type, mileage, and engine capacity. The user interface enhances accessibility, allowing users to effortlessly input car details and receive reliable estimates. The project not only fulfills its objectives of developing an accurate predictive model and creating an intuitive interface but also contributes as a valuable tool for both buyers and sellers in the dynamic second-hand car market.
 
                                        *********************END********************

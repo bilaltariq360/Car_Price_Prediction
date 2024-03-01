@@ -157,19 +157,6 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Insights into Engine Capacity Impact:
 •	The graphical representation offers insights into the impact of engine capacity on the model's accuracy in predicting car resale prices, providing valuable information for users analyzing cars with varying engine specifications.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 •	Scatter Plot Iteration:
 •	In this iteration, the scatter plot introduces the number of seats in a car as a factor, plotted on the x-axis, with the y-axis representing either the original prices or predicted prices.
 •	Individual Data Points:
@@ -330,85 +317,6 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Users can derive insights into the accuracy and performance of the predictive algorithm by observing how closely the predicted values align with the actual resale values.
 •	Visual Assessment of Model Predictions:
 •	The visualization offers a clear and intuitive means for users to visually assess the model's predictions in relation to the true values, aiding in the evaluation of the model's effectiveness in predicting car resale prices.
- 
-SUMMARY OF MODEL:
-Predicted Price_Log (statsmodels):                             OLS Regression Results                            
-Dep. Variable:              Price_Log   R-squared:                       0.926
-Model:                            OLS   Adj. R-squared:                  0.925
-Method:                 Least Squares   F-statistic:                     1410.
-Date:                Tue, 05 Dec 2023   Prob (F-statistic):               0.00
-Time:                        19:33:13   Log-Likelihood:                 108.23
-No. Observations:                6019   AIC:                            -108.5
-Df Residuals:                    5965   BIC:                             253.5
-Df Model:                          53                                         
-Covariance Type:            nonrobust                                         
-                             coef    std err          t      P>|t|      [0.025      0.975]
-const                   -123.2312      1.187   -103.814      0.000    -125.558    -120.904
-Year                       0.1276      0.001    103.656      0.000       0.125       0.130
-Kilometers_Driven      -8.247e-08   3.49e-08     -2.362      0.018   -1.51e-07    -1.4e-08
-Mileage                   -0.0188      0.001    -12.986      0.000      -0.022      -0.016
-Engine                     0.0001   1.69e-05      8.071      0.000       0.000       0.000
-Power                      0.0052      0.000     29.447      0.000       0.005       0.006
-Seats                      0.0429      0.006      6.985      0.000       0.031       0.055
-Encoded_Ahmedabad        -11.1822      0.109   -102.930      0.000     -11.395     -10.969
-Encoded_Bangalore        -11.0415      0.109   -101.737      0.000     -11.254     -10.829
-Encoded_Chennai          -11.1663      0.107   -103.906      0.000     -11.377     -10.956
-Encoded_Coimbatore       -11.1088      0.110   -100.673      0.000     -11.325     -10.892
-Encoded_Delhi            -11.2635      0.108   -104.019      0.000     -11.476     -11.051
-Encoded_Hyderabad        -11.0911      0.107   -103.347      0.000     -11.301     -10.881
-Encoded_Jaipur           -11.2629      0.108   -104.358      0.000     -11.474     -11.051
-Encoded_Kochi            -11.2334      0.110   -101.806      0.000     -11.450     -11.017
-Encoded_Kolkata          -11.4085      0.108   -105.954      0.000     -11.620     -11.197
-Encoded_Mumbai           -11.2319      0.108   -103.720      0.000     -11.444     -11.020
-Encoded_Pune             -11.2412      0.108   -104.259      0.000     -11.453     -11.030
-Encoded_CNG              -24.8921      0.241   -103.381      0.000     -25.364     -24.420
-Encoded_Diesel           -24.6631      0.240   -102.728      0.000     -25.134     -24.192
-Encoded_Electric         -23.7918      0.277    -86.044      0.000     -24.334     -23.250
-Encoded_LPG              -24.9540      0.246   -101.291      0.000     -25.437     -24.471
-Encoded_Petrol           -24.9302      0.240   -103.752      0.000     -25.401     -24.459
-Encoded_Automatic        -61.5550      0.594   -103.559      0.000     -62.720     -60.390
-Encoded_Manual           -61.6762      0.593   -104.062      0.000     -62.838     -60.514
-Encoded_First            -30.7702      0.301   -102.277      0.000     -31.360     -30.180
-Encoded_Fourth & Above   -30.7221      0.301   -102.222      0.000     -31.311     -30.133
-Encoded_Second           -30.8407      0.298   -103.324      0.000     -31.426     -30.256
-Encoded_Third            -30.8982      0.296   -104.398      0.000     -31.478     -30.318
-Encoded_Ambassador        -4.0823      0.236    -17.278      0.000      -4.546      -3.619
-Encoded_Audi              -3.7073      0.046    -81.396      0.000      -3.797      -3.618
-Encoded_BMW               -3.7243      0.044    -83.737      0.000      -3.811      -3.637
-Encoded_Bentley           -4.0960      0.238    -17.214      0.000      -4.562      -3.630
-Encoded_Chevrolet         -4.6102      0.048    -96.403      0.000      -4.704      -4.516
-Encoded_Datsun            -4.7179      0.080    -59.046      0.000      -4.875      -4.561
-Encoded_Fiat              -4.5526      0.062    -73.595      0.000      -4.674      -4.431
-Encoded_Force             -4.1833      0.141    -29.668      0.000      -4.460      -3.907
-Encoded_Ford              -4.3567      0.047    -93.546      0.000      -4.448      -4.265
-Encoded_Honda             -4.2333      0.045    -94.869      0.000      -4.321      -4.146
-Encoded_Hyundai           -4.2824      0.045    -95.596      0.000      -4.370      -4.195
-Encoded_Isuzu             -4.4944      0.143    -31.485      0.000      -4.774      -4.215
-Encoded_Jaguar            -3.6721      0.057    -64.382      0.000      -3.784      -3.560
-Encoded_Jeep              -4.0677      0.077    -53.152      0.000      -4.218      -3.918
-Encoded_Lamborghini       -3.6167      0.241    -15.010      0.000      -4.089      -3.144
-Encoded_Land Rover        -3.4325      0.054    -63.634      0.000      -3.538      -3.327
-Encoded_Mahindra          -4.4440      0.048    -92.430      0.000      -4.538      -4.350
-Encoded_Maruti            -4.2747      0.045    -95.789      0.000      -4.362      -4.187
-Encoded_Mercedes-Benz     -3.6701      0.045    -81.008      0.000      -3.759      -3.581
-Encoded_Mini              -3.2088      0.063    -50.586      0.000      -3.333      -3.084
-Encoded_Mitsubishi        -4.0568      0.063    -64.022      0.000      -4.181      -3.933
-Encoded_Nissan            -4.3276      0.051    -85.426      0.000      -4.427      -4.228
-Encoded_Porsche           -3.8131      0.071    -53.529      0.000      -3.953      -3.673
-Encoded_Renault           -4.3292      0.049    -88.075      0.000      -4.426      -4.233
-Encoded_Skoda             -4.2151      0.046    -91.172      0.000      -4.306      -4.124
-Encoded_Smart             -4.0038      0.236    -16.982      0.000      -4.466      -3.542
-Encoded_Tata              -4.7641      0.048    -99.074      0.000      -4.858      -4.670
-Encoded_Toyota            -4.0987      0.047    -87.399      0.000      -4.191      -4.007
-Encoded_Volkswagen        -4.3056      0.047    -92.336      0.000      -4.397      -4.214
-Encoded_Volvo             -3.8899      0.066    -58.592      0.000      -4.020      -3.760
-==============================================================================
-Omnibus:                     1688.491   Durbin-Watson:                   1.989
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):            31617.206
-Skew:                          -0.863   Prob(JB):                         0.00
-Kurtosis:                      14.095   Cond. No.                     1.19e+16
-==============================================================================
-
 
 5.  Codes
 Link of the complete front end (Flutter) and backend (Python) code is:

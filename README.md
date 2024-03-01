@@ -1,10 +1,10 @@
 # Car Price Prediction System
 
-1. Problem Statement:
+# 1. Problem Statement:
 Issue or problem that you will address:
 The project aims to address the challenge of accurately predicting the price of used cars based on various features such as brand, location, year of manufacture, kilometers driven, fuel type, transmission, owner type, mileage, and engine capacity. The primary issue is the lack of an efficient and user-friendly system for predicting the resale value of cars, which is crucial for both buyers and sellers in the second-hand car market.
 
-2. Objectives:
+# 2. Objectives:
 What will be the objectives of this work:
 
 •	Develop a Predictive Model: Create a robust linear regression model using Flutter desktop application that leverages OLS (Ordinary least Squares) techniques to predict the price of used cars based on the provided dataset.
@@ -15,7 +15,7 @@ What will be the objectives of this work:
 
 •	Data Accuracy and Reliability: Ensure that the predictive model is trained on a reliable dataset to maintain accuracy, considering the dynamic nature of the used car market.
 
-3. Data Description:
+# 3. Data Description:
 Link of the data:
 https://github.com/sagnikghoshcr7/Car-Price-Prediction/blob/master/data/dataset.csv
 
@@ -34,7 +34,7 @@ The dataset comprises information about used cars, including the following param
 •	Engine: Engine capacity in cubic centimeters.
 
 The multiple linear regression model utilizes these parameters to predict the price of a used car accurately. The dataset is diverse and representative of various car models, making the model applicable to a wide range of scenarios in the second-hand car market. The objective is to harness this data to provide users with a reliable tool for estimating the resale value of their vehicles.
-4. Results:
+# 4. Results:
 
 The front page serves as the gateway to the car price prediction experience. It features a minimalist design with a prominent button as the focal point. This button, when clicked, seamlessly navigates users to the prediction page.
 

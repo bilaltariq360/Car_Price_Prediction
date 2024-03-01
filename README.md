@@ -19,7 +19,7 @@ What will be the objectives of this work:
 Link of the data:
 https://github.com/sagnikghoshcr7/Car-Price-Prediction/blob/master/data/dataset.csv
 
-## Details description of the data:
+### Details description of the data:
 The dataset comprises information about used cars, including the following parameters:
 
 •	S.No: Serial number for identification.

@@ -38,7 +38,7 @@ The multiple linear regression model utilizes these parameters to predict the pr
 
 The front page serves as the gateway to the car price prediction experience. It features a minimalist design with a prominent button as the focal point. This button, when clicked, seamlessly navigates users to the prediction page.
 
-•	Dynamic Prediction Interface:
+### •	Dynamic Prediction Interface:
 •	Users can input various parameters including brand, location, year, kilometers driven, fuel type, transmission, owner type, mileage, and engine capacity.
 •	The interface is designed to be dynamic and user-friendly.
 •	Linear Regression Model:
@@ -48,7 +48,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Upon submitting the input details, the system promptly generates and displays the predicted price for the specified car.
 •	Users gain valuable insights into the estimated resale value, providing a practical tool for decision-making in the second-hand car market.
 
-•	Predicted Price Screen Overview:
+### •	Predicted Price Screen Overview:
 •	The screenshot encapsulates the Predicted Price screen, a pivotal component of the application's user interface.
 •	The screen exhibits the outcomes of a comprehensive linear regression analysis on a set of cars.
 •	Display of Predicted Resale Values:
@@ -61,7 +61,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Users have the opportunity to observe and analyze the correlation between input parameters and the predicted resale values.
 •	This screen provides a user-friendly interface for gaining actionable insights into the potential resale values of cars based on specified characteristics
 
-•	Confidence Interval Visualization:
+### •	Confidence Interval Visualization:
 •	The enclosed screenshot illustrates a graphical representation of confidence intervals for predicted car prices.
 •	Range of Likely Values:
 •	Confidence intervals provide a range within which the actual resale values are likely to fall.
@@ -73,7 +73,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	The visualization serves as a tool for understanding the reliability and variability of the model's predictions.
 •	Users can gain valuable insights into the potential range of resale values for second-hand cars, considering the inherent uncertainty in the prediction process.
 
-•	Comprehensive Parameter Overview:
+### •	Comprehensive Parameter Overview:
 •	The screenshot provides a holistic view of various parameters in relation to car prices.
 •	Showcased Parameters:
 •	Parameters such as year, kilometers driven, fuel type, transmission, owner type, mileage, engine capacity, power, number of seats, and additional features are prominently displayed.
@@ -84,7 +84,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	User-Friendly Visual Exploration:
 •	Users can easily explore and interpret the visual representation, gaining a comprehensive understanding of how various features contribute to the overall pricing dynamics in the second-hand car market.
 
-•	Pie Chart Representation:
+### •	Pie Chart Representation:
 •	The enclosed snippet features a visually informative pie chart illustrating the distribution of cars based on different fuel types.
 •	Fuel Type Segmentation:
 •	Each segment of the pie corresponds to a specific fuel type, including categories such as Petrol, Diesel, or CNG.
@@ -96,7 +96,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Intuitive Visual Exploration:
 •	The pie chart serves as an intuitive tool for users to explore and comprehend the distribution of cars based on diverse fuel types, enhancing their understanding of the fuel dynamics in the second-hand car market.
 
-•	Bar Chart Representation:
+### •	Bar Chart Representation:
 •	This snippet presents a bar chart designed to visually represent the number of cars for each distinct company in the dataset.
 •	Manufacturer-Specific Bars:
 •	Each bar within the chart is associated with a specific car manufacturer, creating a visual representation of the dataset's brand distribution.
@@ -107,7 +107,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Insights into Brand Distribution:
 •	Users can gain valuable insights into the distribution of car brands within the dataset, making it a useful tool for analyzing the prevalence of different manufacturers in the second-hand car market.
 
-•	Bar Chart Representation:
+### •	Bar Chart Representation:
 •	The provided snippet includes a bar chart designed to visually represent the distribution of cars based on different fuel types.
 •	Fuel Category Bars:
 •	Each bar within the chart corresponds to a specific fuel category, such as Petrol, Diesel, or CNG.
@@ -118,7 +118,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Facilitates Understanding of Fuel Composition:
 •	The bar chart is a useful tool for understanding the market's fuel composition, providing insights into the distribution of cars based on different fuel categories in the second-hand car market.
 
-•	Scatter Plot Representation:
+### •	Scatter Plot Representation:
 •	This section features a scatter plot that visually maps both the original prices and the predicted prices for cars in the dataset.
 •	Individual Data Points:
 •	Each point on the scatter plot represents an individual car within the dataset.
@@ -131,7 +131,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Visual Assessment of Model Predictions:
 •	The visualization provides a clear and intuitive means for users to assess the model's predictions in relation to the true values, aiding in the evaluation of the model's effectiveness in predicting car resale prices.
 
-•	Scatter Plot Representation:
+### •	Scatter Plot Representation:
 •	In this section, a scatter plot is showcased where the x-axis corresponds to the power of cars, and the y-axis represents either the original prices or predicted prices.
 •	Individual Data Points:
 •	Each point on the scatter plot corresponds to an individual car within the dataset.
@@ -144,7 +144,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Insights into Power's Impact:
 •	The graphical representation offers insights into the relationship between the power of cars and their corresponding resale values, aiding users in understanding the predictive performance of the model for cars with varying power specifications.
 
-•	Scatter Plot Introduction:
+### •	Scatter Plot Introduction:
 •	This section introduces a scatter plot featuring the x-axis representing the engine capacity of cars and the y-axis indicating either the original prices or predicted prices.
 •	Individual Data Points:
 •	Each point on the scatter plot corresponds to an individual car within the dataset.
@@ -157,7 +157,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Insights into Engine Capacity Impact:
 •	The graphical representation offers insights into the impact of engine capacity on the model's accuracy in predicting car resale prices, providing valuable information for users analyzing cars with varying engine specifications.
 
-•	Scatter Plot Iteration:
+### •	Scatter Plot Iteration:
 •	In this iteration, the scatter plot introduces the number of seats in a car as a factor, plotted on the x-axis, with the y-axis representing either the original prices or predicted prices.
 •	Individual Data Points:
 •	Each point on the scatter plot corresponds to an individual car within the dataset.
@@ -170,7 +170,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Insights into Seat Count Impact:
 •	Users can leverage the visualization to gain insights into how the number of seats influences the accuracy of the linear regression model's price predictions for individual cars in the dataset.
 
-•	Histogram Screen - Mileage Distribution:
+### •	Histogram Screen - Mileage Distribution:
 •	The enclosed screenshot features a histogram providing insights into the distribution of mileage among a set of cars within the dataset.
 •	X-axis Represents Mileage Intervals:
 •	The x-axis is dedicated to mileage intervals, delineating different ranges of mileage values.
@@ -183,7 +183,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Enhanced Understanding of Mileage Distribution:
 •	The graphical presentation enhances understanding by providing insights into patterns and trends related to mileage within the second-hand car market, contributing to informed decision-making for potential buyers and sellers.
 
-•	Histogram Screen - Engine Power Distribution:
+### •	Histogram Screen - Engine Power Distribution:
 •	The enclosed screenshot features a histogram that visually portrays the distribution of engine power across a collection of cars within the dataset.
 •	X-axis Represents Power Intervals:
 •	Power intervals are delineated on the x-axis, providing a breakdown of different power categories.
@@ -196,7 +196,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Enhanced Understanding of Engine Power Distribution:
 •	The graphical presentation enhances understanding by offering a visual overview of how engine power is distributed across the dataset, providing valuable insights for market analysis and decision-making.
 
-•	Histogram Screen - Engine Capacity Distribution:
+### •	Histogram Screen - Engine Capacity Distribution:
 •	The enclosed screenshot features a histogram illustrating the distribution of engine capacities across a set of cars within the dataset.
 •	X-axis Categorizes Engine Capacities:
 •	Engine capacities are categorized on the x-axis, providing a breakdown of different capacity ranges.
@@ -209,7 +209,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Enhanced Understanding of Engine Capacity Distribution:
 •	By observing the distribution, users can enhance their understanding of the prevailing engine sizes in the dataset, aiding in market analysis and decision-making related to engine capacity considerations
 
-•	Histogram Screen - Car Price Distribution:
+### •	Histogram Screen - Car Price Distribution:
 •	The provided screenshot features a histogram that illustrates the distribution of car prices within specific price ranges.
 •	X-axis Depicts Price Intervals:
 •	Price intervals are delineated on the x-axis, providing a segmentation of different price categories.
@@ -222,7 +222,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Enhanced Insights into Price Distribution:
 •	The graphical presentation enhances insights into the distribution of prices, offering valuable information for market analysis and decision-making in the context of car pricing dynamics.
 
-•	Whisker Chart Screen - Mileage Distribution by Price Range:
+### •	Whisker Chart Screen - Mileage Distribution by Price Range:
 •	The enclosed screenshot features a whisker chart illustrating the distribution of mileage values within different price ranges for cars.
 •	Visual Representation of Central Tendencies and Spread:
 •	The whisker chart provides a visual representation of central tendencies, spread, and potential outliers of mileage data grouped by specific price intervals.
@@ -233,7 +233,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Facilitates Identification of Outliers:
 •	Users can identify potential outliers and variations in mileage more easily through the graphical depiction, contributing to a more comprehensive understanding of the relationship between mileage and car prices.
 
-•	Whisker Chart Screen - Power Distribution by Price Range:
+### •	Whisker Chart Screen - Power Distribution by Price Range:
 •	The enclosed screenshot presents a whisker chart illustrating the distribution of power values within distinct price ranges for cars.
 •	Visual Representation of Central Tendencies and Variability:
 •	The whisker chart provides a visual representation of central tendencies, variability, and potential outliers of power data grouped by specific price intervals.
@@ -244,7 +244,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Facilitates Identification of Outliers:
 •	Users can identify potential outliers and variations in power more easily through the graphical depiction, contributing to a more comprehensive understanding of the relationship between power and car prices.
 
-•	Whisker Chart Screen - Engine Capacity Distribution by Price Range:
+### •	Whisker Chart Screen - Engine Capacity Distribution by Price Range:
 •	The provided screenshot showcases a whisker chart illustrating the distribution of engine capacities within different price ranges for cars.
 •	Visual Representation of Central Tendencies and Spread:
 •	The whisker chart offers a visual depiction of central tendencies, spread, and potential outliers of engine capacity data grouped by specific price intervals.
@@ -255,7 +255,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Facilitates Identification of Outliers:
 •	Users can identify potential outliers and variations in engine capacity more effectively through the graphical depiction, contributing to a more comprehensive understanding of the relationship between engine capacity and car prices.
 
-•	Whisker Chart Screen - Car Price Distribution by Price Range:
+### •	Whisker Chart Screen - Car Price Distribution by Price Range:
 •	The enclosed screenshot showcases a whisker chart illustrating the distribution of car prices within distinct price ranges.
 •	Visual Representation of Central Tendencies and Spread:
 •	The whisker chart provides a visual representation of central tendencies, spread, and potential outliers of car prices grouped by specific price intervals.
@@ -266,7 +266,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Facilitates Identification of Outliers:
 •	Users can identify potential outliers and variations in car prices more effectively through the graphical depiction, contributing to a more comprehensive understanding of the pricing landscape in the second-hand car market.
 
-•	Linear Regression with Average Line - Scatter Plot Iteration:
+### •	Linear Regression with Average Line - Scatter Plot Iteration:
 •	In this iteration, the scatter plot introduces the number of seats in a car as a factor, plotted on the x-axis, with the y-axis representing either the original prices or predicted prices.
 •	Individual Data Points:
 •	Each point on the scatter plot corresponds to an individual car within the dataset.
@@ -279,7 +279,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Insights into Seat Count Impact:
 •	Users can leverage the visualization to gain insights into how the number of seats influences the accuracy of the linear regression model's price predictions for individual cars in the dataset. The average line offers a benchmark for comparison.
 
-•	Linear Regression with Average Line - Scatter Plot Iteration: Power and Price Comparison:
+### •	Linear Regression with Average Line - Scatter Plot Iteration: Power and Price Comparison:
 •	In this iteration, the scatter plot introduces the power of cars as a variable, plotted on the x-axis, with the y-axis representing either the original prices or predicted prices.
 •	Individual Data Points:
 •	Each point on the scatter plot corresponds to an individual car within the dataset.
@@ -292,7 +292,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Insights into Power's Impact:
 •	The graphical representation offers insights into the relationship between the power of cars and their corresponding resale values, aiding users in understanding the predictive performance of the model for cars with varying power specifications. The average line serves as a benchmark for comparison.
 
-•	Linear Regression with Average Line - Scatter Plot Iteration: Engine Capacity and Price Comparison:
+### •	Linear Regression with Average Line - Scatter Plot Iteration: Engine Capacity and Price Comparison:
 •	In this iteration, the scatter plot introduces the engine capacity of cars as a variable, plotted on the x-axis, with the y-axis representing either the original prices or predicted prices.
 •	Individual Data Points:
 •	Each point on the scatter plot corresponds to an individual car within the dataset.
@@ -305,7 +305,7 @@ The front page serves as the gateway to the car price prediction experience. It 
 •	Insights into Engine Capacity Impact:
 •	The graphical representation offers insights into the impact of engine capacity on the model's accuracy in predicting car resale prices, providing valuable information for users analyzing cars with varying engine specifications. The average line serves as a benchmark for comparison.
 
-•	Regression Model with Linear Line - Scatter Plot Representation:
+### •	Regression Model with Linear Line - Scatter Plot Representation:
 •	This section introduces a scatter plot featuring both the original prices and the predicted prices for cars in the dataset, with a linear line representing the regression model.
 •	Individual Data Points:
 •	Each point on the scatter plot corresponds to an individual car within the dataset.
@@ -322,35 +322,35 @@ The front page serves as the gateway to the car price prediction experience. It 
 Link of the complete front end (Flutter) and backend (Python) code is:
 https://github.com/Programming-Phantoms/Car_Prediction_System.git
 
-The provided backend Python code is a Flask application that serves as a backend for a linear regression model for predicting car prices. Here's a brief description of the code:
-1)	Imports:
+### The provided backend Python code is a Flask application that serves as a backend for a linear regression model for predicting car prices. Here's a brief description of the code:
+### 1)	Imports:
 •	numpy and pandas for numerical operations and data manipulation.
 •	Flask for creating a web application.
 •	matplotlib.pyplot for data visualization.
 •	train_test_split and LinearRegression from scikit-learn for machine learning tasks.
 •	statsmodels.api for statistical analysis and building an Ordinary Least Squares (OLS) regression model.
-2)	Flask App Initialization:
+### 2)	Flask App Initialization:
 •	The Flask application is initialized, creating an instance of the Flask class.
-3)	Dataset Loading:
+### 3)	Dataset Loading:
 •	The code loads a dataset containing car information (carsdf.csv).
-4)	Route Definition:
+### 4)	Route Definition:
 •	A single route '/' is defined, which triggers the train_linear_regression function when the root URL is accessed.
-5)	Linear Regression Model Training:
+### 5)	Linear Regression Model Training:
 •	Inside train_linear_regression, a preprocessed and encoded dataset is loaded (encoded.csv).
 •	The script assumes 'Price_Log' as the target variable and performs OLS regression using statsmodels.
-6)	Data Visualization:
+### 6)	Data Visualization:
 •	The script generates visualizations such as bar charts and pie charts to show the number of cars per company and the distribution of cars by fuel type, respectively.
 •	Histograms are created for various features like price log, year, kilometers driven, engine, mileage, seats, and power.
-7)	Confidence Interval Calculation:
+### 7)	Confidence Interval Calculation:
 •	A function CI is defined to calculate the confidence interval for predicted prices.
-8)	JSON Response Preparation:
+### 8)	JSON Response Preparation:
 •	The script prepares a JSON response containing various information for front end implementation in FLUTTER:
 •	Linear Regression Model Results (LRM): Actual prices (y), predicted prices (yhat), model coefficients, confidence intervals, and summary information.
 •	Scatter plot data (scatter_data): Year, Kilometers Driven, Mileage, Engine, Power, and Seats.
 •	Histogram data (histogram_of_price_Log): Histogram values and bin edges for various features.
 •	Bar chart data (bar_chart_data): Number of cars per company.
 •	Pie chart data (pie_chart_data): Distribution of cars by fuel type.
-9)	Flask App Execution:
+### 9)	Flask App Execution:
 •	The Flask application is run, and the server starts to listen for incoming requests.
  Note:
 •	Ensure that the paths to CSV files are correct.
@@ -360,5 +360,3 @@ This Flask app serves as an API, providing various endpoints for accessing predi
 
 # 6. Conclusion
 In conclusion, the project successfully addresses the challenge of predicting used car prices through the implementation of a robust linear regression model within a user-friendly Flutter desktop application. By leveraging OLS (Ordinary least Squares) techniques and visual representations such as pie charts, bar charts, histograms, and whisker plot. The model provides accurate and real-time price predictions based on a diverse dataset encompassing critical parameters like brand, location, year of manufacture, kilometers driven, fuel type, transmission, owner type, mileage, and engine capacity. The user interface enhances accessibility, allowing users to effortlessly input car details and receive reliable estimates. The project not only fulfills its objectives of developing an accurate predictive model and creating an intuitive interface but also contributes as a valuable tool for both buyers and sellers in the dynamic second-hand car market.
-
-                                       *********************END********************
